@@ -1,0 +1,139 @@
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --Very-LightGray: hsl(0, 0%, 98%);
+}
+body{
+    font-size: 15px;
+    font-family: 'Poppins', 'sans-serif';
+    background: var(--Very-LightGray);
+    margin: 10px 30px;
+}
+
+.info{
+    text-align: center;
+    margin: 50px auto;
+}
+.info h1{
+    color: var(--VeryDarkBlue);
+    font-weight: 200;
+}
+.info h1 strong{
+    font-weight: 600;
+}
+.info p{
+    color: var(--GrayishBlue);
+    margin: 10px 15px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.card1{
+    border-top: 5px solid var(--Cyan);
+    border-radius: 10px;
+    box-shadow: 2px 6px 20px var(--GrayishBlue);
+    padding: 0px 30px 30px 30px;
+    margin: 15px;
+    width: 300px;
+    color: var(--VeryDarkBlue);
+}
+.card1 h1{
+    color: var(--VeryDarkBlue);
+}
+.card1 p{
+    color: var(--GrayishBlue);
+}
+.card1 img{
+    margin-right: 5%;
+    margin-top: 10%;
+    float: right;
+}
+
+.card2{
+    border-top: 5px solid var(--Red);
+    border-radius: 10px;
+    box-shadow: 2px 6px 20px var(--GrayishBlue);
+    padding: 0px 30px 30px 30px;
+    margin: 15px;
+    width: 300px;
+    color: var(--VeryDarkBlue);
+}
+.card2 h1{
+    color: var(--VeryDarkBlue);
+}
+.card2 p{
+    color: var(--GrayishBlue);
+}
+.card2 img{
+    margin-right: 5%;
+    margin-top: 10%;
+    float: right;
+}
+
+.card4{
+    border-top: 5px solid var(--Orange);
+    border-radius: 10px;
+    box-shadow: 2px 6px 20px var(--GrayishBlue);
+    padding: 0px 30px 30px 30px;
+    margin: 15px;
+    width: 300px;
+    color: var(--VeryDarkBlue);
+}
+.card4 h1{
+    color: var(--VeryDarkBlue);
+}
+.card4 p{
+    color: var(--GrayishBlue);
+}
+.card4 img{
+    margin-right: 5%;
+    margin-top: 10%;
+    float: right;
+}
+
+
+.card3{
+    border-top: 5px solid var(--Blue);
+    border-radius: 10px;
+    box-shadow: 2px 6px 20px var(--GrayishBlue);
+    padding: 0px 30px 30px 30px;
+    margin: 15px;
+    width: 300px;
+    color: var(--VeryDarkBlue);
+}
+.card3 h1{
+    color: var(--VeryDarkBlue);
+}
+.card3 p{
+    color: var(--GrayishBlue);
+}
+.card4 img{
+    margin-right: 5%;
+    margin-top: 10%;
+    float: right;
+}
+
+
+@media screen and (min-width: 768px){
+    .info p{
+        width: 550px;
+        margin: 50px auto;
+    }
+    .card1{
+        transform: translateY(50%);
+    }
+    .card3{
+        transform: translateY(50%);
+    }
+}
+
